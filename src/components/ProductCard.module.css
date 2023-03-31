@@ -1,0 +1,48 @@
+.Product_card {
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 4px 5px 8px 0px #e0e0e0;
+}
+.Product_card:hover {
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+@media screen and (max-width: 786px) {
+  .Product_card {
+    margin-top: 2rem !important;
+  }
+}
+.price_button {
+  margin-top: 0.8rem;
+}
+.searchBar {
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.discount_Percentage {
+  color: #a8e890;
+}
+.addToCartBtn {
+  border: 1px solid #0d6efd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d6efd;
+  color: #fff;
+  border-radius: 0.6rem;
+}
+.addToCartBtn:hover {
+  background-color: #0b5ed7;
+  cursor: pointer;
+}
+.remain_stock {
+  color: #ff7d7d;
+}
+.rating {
+  color: #efd345;
+}
+.thumbnail_images {
+  border-radius: 1rem 1rem 0rem 0rem;
+}

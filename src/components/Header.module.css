@@ -1,0 +1,30 @@
+@media screen and (min-width: 786px) {
+  .sidebar_moblie_view {
+    display: none;
+  }
+}
+@media screen and (max-width: 786px) {
+  .desktop_view {
+    display: none;
+  }
+}
+.desktop_view_logo,
+.sidebar_moblie_view_logo {
+  width: 8rem;
+  height: 8rem;
+}
+.navigation_links {
+  color: #000;
+}
+.dropdown_row {
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile_pic {
+  width: 3rem;
+  height: 3rem;
+}
+.dropdown_row {
+  align-items: center;
+  justify-content: flex-start;
+}
